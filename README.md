@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Chatbot Portfolio Component
 
-## Getting Started
+A Next.js-based AI chatbot application designed to serve as an interactive component for **Pradeep M's Portfolio**. This project leverages modern AI technologies to provide intelligent conversational capabilities.
 
-First, run the development server:
+> **Note:** This project is intended to be linked and integrated with my personal portfolio website.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **AI Integration:** [Vercel AI SDK](https://sdk.vercel.ai/docs)
+- **LLM:** [Google Generative AI (Gemini)](https://ai.google.dev/)
+- **Vector Database:** [Pinecone](https://www.pinecone.io/)
+- **Orchestration:** [LangChain](https://js.langchain.com/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Follow these steps to run the project locally:
 
-## Learn More
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository_url>
+    cd chat-bot
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3.  **Environment Setup:**
+    Create a `.env` file in the root directory and add your API keys:
+    ```env
+    GOOGLE_API_KEY=your_gemini_api_key
+    PINECONE_API_KEY=your_pinecone_api_key
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+    Open [http://localhost:3000](http://localhost:3000) (or the port shown in your terminal) to view the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This application is optimized for deployment on **Vercel**.
+
+1.  Push your code to a Git repository (GitHub, GitLab, etc.).
+2.  Import the project into Vercel.
+3.  Add the `GOOGLE_API_KEY` and `PINECONE_API_KEY` in the Vercel project settings (Environment Variables).
+4.  Deploy!
+
+## 📄 License
+
+This project is for personal portfolio usage.
