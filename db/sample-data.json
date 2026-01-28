@@ -1,0 +1,104 @@
+
+[
+  { "id": 1, "info": "name", "description": "Pradeep M" },
+  { "id": 2, "info": "mobile", "description": "+91 9361401471" },
+  { "id": 3, "info": "email", "description": "pradeep.m.developer@gmail.com" },
+  { "id": 4, "info": "location", "description": "Cuddalore, Tamil Nadu" },
+  { "id": 5, "info": "linkedin", "description": "https://linkedin.com/in/pradeep-m07" },
+  { "id": 6, "info": "github", "description": "https://github.com/PradeepDev07" },
+
+  {
+    "id": 7,
+    "info": "summary",
+    "description": "B.Sc Computer Science graduate with hands-on experience building web apps using React.js, JavaScript, Node.js, and REST APIs. Worked on authentication, role-based access, API integration, and performance-focused components. Comfortable with Git, clean code, and modern tools. Seeking React Developer fresher role and open to onsite in Pondicherry."
+  },
+
+  {
+    "id": 8,
+    "info": "education",
+    "description": {
+      "college": "St. Joseph’s College of Arts & Science (Autonomous), Cuddalore",
+      "degree": "B.Sc Computer Science",
+      "duration": "Jul 2022 - May 2025",
+      "percentage": "73%",
+      "coursework": ["OOPS", "DSA", "DBMS", "Operating Systems", "Computer Networks", "Web Development"]
+    }
+  },
+
+  {
+    "id": 9,
+    "info": "experience",
+    "description": [
+      "Designed modular backend workflows using Node.js and Express",
+      "Developed REST APIs with MongoDB and SQLite",
+      "Implemented authentication and role-based access",
+      "Debugged using Postman and browser dev tools",
+      "Used Git & GitHub for version control"
+    ]
+  },
+
+  {
+    "id": 10,
+    "info": "projects",
+    "description": [
+      {
+        "title": "Code Snippet Manager",
+        "tech": ["React", "Node.js", "Express", "MongoDB"],
+        "features": [
+          "JWT auth with HTTP-only cookies",
+          "CRUD with ownership access control",
+          "Modular backend architecture"
+        ],
+        "live": "https://code-snippets-manager-weld.vercel.app/"
+      },
+      {
+        "title": "React Task Manager",
+        "tech": ["React", "LocalStorage"],
+        "features": [
+          "Admin & User role-based system",
+          "Protected routes",
+          "Conditional rendering"
+        ],
+        "live": "https://react-task-manager-ten-sepia.vercel.app/login"
+      },
+      {
+        "title": "GIPHY Clone",
+        "tech": ["React", "GIPHY API", "Tailwind CSS"],
+        "features": [
+          "Real-time search",
+          "Dynamic rendering",
+          "Responsive UI"
+        ],
+        "live": "https://giphy-clone-drab.vercel.app/"
+      }
+    ]
+  },
+
+  {
+    "id": 11,
+    "info": "skills",
+    "description": {
+      "programming": ["JavaScript", "Python"],
+      "architecture": ["Component-based", "MVC (basic)", "Flux (basic)"],
+      "databases": ["SQL", "SQLite", "MongoDB"],
+      "backend": ["Node.js", "Express", "REST APIs", "JWT"],
+      "tools": ["Git", "GitHub", "Postman", "Docker (Basics)"],
+      "concepts": ["OOP", "DSA", "DBMS", "Problem Solving", "Debugging"],
+      "soft_skills": ["Analytical thinking", "Communication", "Adaptability", "Continuous learning"]
+    }
+  },
+
+  {
+    "id": 12,
+    "info": "certifications",
+    "description": [
+      { "title": "Node.js Developer", "link": "https://certificates.ccbp.in/academy/node-js?id=RZYYEJKKPV" },
+      { "title": "React.js Developer", "link": "https://certificates.ccbp.in/academy/react-js?id=QMHRHEWPNEM" },
+      { "title": "Modern JavaScript (ES6+)", "link": "https://certificates.ccbp.in/academy/javascript-essentials?id=EHYQHVJJVQ" },
+      { "title": "Responsive Web Design", "link": "https://certificates.ccbp.in/academy/responsive-web-design-using-flexbox?id=YFYDBPYEBJP" },
+      { "title": "Python Programming", "link": "https://certificates.ccbp.in/academy/programming-foundations-with-python?id=ZHWZYPXWCES" },
+      { "title": "SQLite & MongoDB", "link": "https://certificates.ccbp.in/academy/introduction-to-databases?id=QPZOYPHNQKG" },
+      { "title": "Git & GitHub Version Control", "link": "https://certificates.ccbp.in/academy/developer-foundations?id=CDQFUKTNLL" }
+    ]
+  }
+]
