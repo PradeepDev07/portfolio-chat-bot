@@ -62,7 +62,7 @@ export default function Home() {
             value={input}
             type="text"
             placeholder="What's your hometown?"
-            className="py-3 px-5 flex-1 rounded text-black text-2xl border-2 border-gray-50 focus:outline-none focus:border-blue-500"
+            className="py-3 px-5 flex-1 rounded text-white text-2xl border-2 border-gray-50 focus:outline-none focus:border-blue-500"
           />
           <button
             type="submit"
